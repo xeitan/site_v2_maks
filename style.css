@@ -1606,6 +1606,7 @@ img {
 .modal-header h3 {
     font-size: 1.6rem;
     margin-bottom: 4px;
+    padding-right: 45px; /* Prevent close button from overlapping text */
 }
 
 .modal-body {
@@ -1619,6 +1620,12 @@ img {
     gap: 36px;
     align-items: start;
     margin-top: 20px;
+    min-width: 0;
+}
+
+.modal-case-report, .modal-case-info {
+    min-width: 0;
+    width: 100%;
 }
 
 .stats-list {
@@ -1685,6 +1692,8 @@ img {
 
 .topvisor-table-wrap {
     overflow-x: auto;
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
 }
 
 .topvisor-table {
