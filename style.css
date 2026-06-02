@@ -2207,6 +2207,61 @@ img {
         padding: 8px;
         margin-bottom: 12px;
     }
+
+    /* Modal dialog and Topvisor table mobile adaptations */
+    .modal-dialog {
+        width: 95%;
+        max-height: 95vh;
+        border-radius: var(--border-radius-md);
+    }
+
+    .modal-body {
+        padding: 10px 16px 24px 16px;
+    }
+
+    .modal-case-grid {
+        gap: 20px;
+    }
+
+    .stats-list li {
+        font-size: 0.85rem;
+    }
+
+    .topvisor-table {
+        min-width: 500px; /* Forces horizontal swipe scrolling on mobile instead of text squeezing */
+    }
+
+    .topvisor-table th, 
+    .topvisor-table td {
+        padding: 8px 10px;
+        font-size: 0.75rem;
+    }
+
+    /* AI generated sites tab browser mockup mobile layout */
+    .browser-body {
+        padding: 16px;
+    }
+
+    .mock-site-hero {
+        padding: 20px 16px;
+    }
+
+    .mock-site-stats {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    .popup-sites-tabs {
+        flex-direction: column;
+        gap: 6px;
+        border-bottom: none;
+    }
+
+    .tab-btn {
+        width: 100%;
+        text-align: center;
+        padding: 8px 16px;
+    }
 }
 
 /* ==========================================================================
